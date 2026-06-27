@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "dayjs": "^1.11.21"
+    "dayjs": "^1.11.21",
+    "micromodal": "^0.7.0"
   }
 }

@@ -28,6 +28,11 @@ body {
 	text-align: right;
 }
 
+.city {
+	display: flex;
+	justify-content: right;
+}
+
 .city-label {
 	margin: 0;
 	color: hsl(0, 0%, 31%);
@@ -44,4 +49,72 @@ body {
 	margin: 0;
 	font-size: 25px;
 
+}
+
+.edit-img {
+	width: 15px;
+	height: 15px;
+}
+
+.edit-btn {
+	background-color: hsla(0, 0%, 80%, 0.5);
+	border: none;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.is-open {
+  display: block;
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.modal__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #00449e;
+}
+
+.modal__btn {
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;  
+}
+
+.modal__btn-primary {
+  background-color: #00449e;
+  color: #fff;
+}
+
+.modal__footer {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#timezone-select {
+	padding: 5px;
+	width: 250px;
 }
