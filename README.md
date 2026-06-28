@@ -9,5 +9,5 @@ dayjs, micromodal.
 
 <details>
 <summary>Нажмите, чтобы посмотреть скриншот</summary>
-<img src="screenshots/screenshot.png" alt="Основной скриншот приложения">
+<img src="/images/screenshots/screenshot.png" alt="Основной скриншот приложения">
 </details>
